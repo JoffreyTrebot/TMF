@@ -1,0 +1,35 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+/* HEADER */
+    header{
+        background-color: #00a8ec;
+        height: 100%;
+        text-align: center;
+    }
+
+    #logo{
+        margin-top: 5%;
+        height: auto;
+        width: 15%;
+        margin-bottom: 5%;
+    }
+
+    #slogan{
+        color: white;
+    }
+
+    #formulaire{
+       margin-top: 10%;
+    }
+
+    #tmf_btn{
+        margin-top: 10%;
+        box-shadow: 0px 5px 5px #0086bd;
+        border:1px solid #006086;
+    }
+
+ok
