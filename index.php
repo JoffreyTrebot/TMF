@@ -87,11 +87,22 @@
                     </div>
                     
                     <div class="row justify-content-center">
-                        <button type="submit" id="tmf_btn" class="btn btn-success col-6"><h3>TROUVE MON FILM</h3></button>
+                        <button type="submit" id="tmf_btn" href="#corp" class="btn btn-success col-6"><h3>TROUVE MON FILM</h3></button>
                     </div>
-                </form>
+				</form>
+				
             </div>
         </header>
 
+		<?php
+			if(isset($corp)){
+				?>
+				<section id="corp" class="js-scroll-trigger">
+					<h1>CORP</h1>            
+				</section>
+				<?php
+			}
+		?>
+        
     </body>
 </html>
